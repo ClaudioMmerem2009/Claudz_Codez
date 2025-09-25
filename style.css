@@ -1,0 +1,385 @@
+body{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    background-color: rgb(192, 192, 192);
+}
+.phase{
+    background-color: #B017D6;
+    height: 50px;
+    width: 1657px;
+    display: flex;
+    gap: 20px;
+    padding-left: 30px;
+    justify-content: center;
+    padding-top: 10px;
+
+}
+
+.head_images:hover{
+    opacity: 0.8;
+}
+nav{
+    height: 60px;
+    width: 1459px;
+    background-color: rgb(230, 230, 230);
+    display: flex;
+    gap: 25px;
+    padding-left: 230px;
+    padding-top: 15px;
+    position: sticky;
+    top: 0px;
+    z-index: 99;
+    
+    
+    
+
+}
+.nav_input{
+height: 45px;
+width: 600px;
+position: relative;
+margin-left: 10px;
+font-size: x-large;
+font-family: 'Times New Roman', Times, serif ;
+border-radius: 25px;
+border: 2px solid rgb(99, 91, 91);
+color: black;
+background-image: url(images/search-regular-24.png);
+background-repeat: no-repeat;
+padding-left: 40px;
+background-size: 30px;
+background-position: 5px;
+
+}
+
+.nav_input:hover{
+    height: 45px;
+    width: 600px;
+    position: relative;
+    margin-left: 10px;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif ;
+    border-radius: 25px;
+    border: 2px solid #B017D6;
+    color: #B017D6;
+    }
+    
+
+.product a{
+    color: #B017D6;
+    text-decoration: none;
+    
+}
+
+
+.product{
+    height: 40px;
+    margin-left: 10px;
+    font-size: x-large;
+    border-radius: 5px;
+    background-color: transparent;
+    border: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 1px;
+    padding-top: 4px;
+    cursor: pointer;
+    
+
+}
+
+.product:hover, .product:focus{
+    height: 42px;
+    margin-left: 10px;
+    font-size: x-large;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 2.5px solid  #B017D6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 1px;
+    transition: 1s;
+    padding-top: 4px;
+    cursor: pointer;
+    
+
+}
+
+
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  .show {display:block;}
+
+.phase-1{
+    background-color: transparent;
+    height: 520px;
+    width: inherit;
+    padding-top: 30px;
+    position: relative;
+    padding-left: 20px;
+    display:flex;
+    justify-content: center;
+    gap: 30px;
+    
+}
+.selection{
+    height:500px ;
+    width: 250px;
+    background-color: rgb(230, 230, 230);
+    border-radius: 6px;
+    box-shadow: 1px solid black;
+    position: relative;
+    padding: 0px;
+    font-size: large;
+    
+}
+.selection li {
+    margin-top: 20px;
+    margin-left: 20px;
+    list-style-type: none;
+    text-decoration: none;
+}
+.selection a{
+    text-decoration: none;
+}
+.display{
+    height: 500px;
+    width: 880px;
+    background-color: rgb(230, 230, 230);
+    border-radius: 6px;
+    box-shadow: 1px solid black;
+    background-image: url(images/SHOPPING\ AT\ YOUR\ DOORSTEP\ \(2\).gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.ad{
+    height:500px ;
+    width: 300px;
+    background-color: rgb(230, 230, 230);
+    border-radius: 6px;
+    box-shadow: #B017D6;
+    display: block;
+    gap: 10px;
+    justify-content: center;
+    
+    
+    
+}
+.ad-1{
+    height: 200px;
+    width: 100%;
+    background-image: url(images/SHOP\ MORE\ $\ PAY\ LESS!.gif);
+    border-radius: 6px;
+}
+.ad-2{
+    height: 200px;
+    width: 100%;
+    background-color: #B017D6;
+    border-radius: 6px;
+}
+.phase-3{
+    background-color: transparent;
+    height: 720px;
+    width: 1490px;
+    position: relative;
+    margin-left: 110px;
+    border-radius: 6px;
+    display: block;
+    
+}
+.phase-3 .phase-3-header {
+    text-align: center;
+    font-weight:500 ;
+    font-size: 35px;
+    width: 100%;
+    color: #B017D6;
+    background-color: rgb(230, 230, 230);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+}
+ .phase-3 .phase-3-parent{
+    width: 100%;
+    height: 700px;
+    margin-top: 0;
+    background-color: rgb(211, 204, 204);
+    margin-bottom: 10px;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    display: block;
+}
+.phase-3 .phase-3-parent  .phase-3-child-1{
+    width: 100%;
+    height: 50%;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    padding-top: 2.5px;
+    
+}
+.phase-3 .phase-3-parent  .phase-3-child-2{
+    width: 100%;
+    height: 50%;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    padding-top: 2.5px;
+
+}
+.first-image{
+    width: 450px;
+    height: 310px;
+    margin: 10px;
+    border-radius: 6px;
+}
+.first-image:hover{
+    width: 450px;
+    height: 310px;
+    margin: 10px;
+    border-radius: 6px;
+    transform: scale(1.02);
+}
+.phase-4{
+    background-color: transparent;
+    height: 700px;
+    width: 1490px;
+    position: relative;
+    margin-left: 110px;
+    border-radius: 6px;
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    
+}
+.phase-4 .phase-4-header {
+    text-align: center;
+    font-weight:500;
+    font-size: 35px;
+    width: 100%;
+    color: #B017D6;
+    background-color: rgb(230, 230, 230);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+}
+ .phase-4 .phase-4-parent{
+    width: 100%;
+    height: 700px;
+    margin-top: 0;
+    background-color: rgb(211, 204, 204);
+    margin-bottom: 10px;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    display: block;
+}
+.phase-4 .phase-4-parent  .phase-4-child-1{
+    width: 100%;
+    height: 50%;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    gap: 2.5px;
+    padding-top: 2.5px;
+    
+}
+.phase-4 .phase-4-parent  .phase-4-child-2{
+    width: 100%;
+    height: 50%;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    gap: 2.5px;
+    padding-top: 2.5px;
+
+}
+.phase-5{
+    height: 420px;
+    width: 1490px;
+    background-color: transparent;
+    margin-top: 20px;
+    margin-left: 110px;
+    border: none;
+    display: block;
+    margin-bottom: 50px;
+}
+.phase-5 .phase-5-header{
+    height: 10%;
+    width: 100%;
+    background-color: rgb(230, 230, 230);
+    text-align: center;
+    font-weight:500;
+    font-size: 35px;
+    color: #B017D6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+}
+.phase-5 .phase-5-footer{
+    height: 90%;
+    width: 100%;
+    background-color: rgb(211, 204, 204);
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    padding-top: 12px;
+    display: flex;
+}
+.phase-5 .phase-5-footer .phase-5-footer-child-1{
+    height: 370px;
+    width: 348px;
+    background-color: blue;
+    margin-left: 30px;
+}
+.phase-5 .phase-5-footer .phase-5-footer-child-2{
+    height: 370px;
+    width: 348px;
+    background-color: rgb(11, 146, 112);
+    margin-left: 12px;
+}
+.phase-5 .phase-5-footer .phase-5-footer-child-3{
+    height: 370px;
+    width: 348px;
+    background-color: rgb(153, 82, 16);
+    margin-left: 12px;
+}
+.phase-5 .phase-5-footer .phase-5-footer-child-4{
+    height: 370px;
+    width: 348px;
+    background-color: rgb(194, 23, 180);
+    margin-left: 12px;
+}
+.phase-6{
+    height: 20px;
+    width: 50px;
+    background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
